@@ -4,8 +4,24 @@
 }
 
 .row5-dms {
-  padding-bottom: 220px;
+  padding-bottom: 150px;
   .col-4-dms {
     padding: 62px 44px 75px;
+    margin-bottom: 70px;
+  }
+}
+
+.theme-badge-success1 {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 14px;
+    height: 14px;
+    display: block;
+    border-radius: 100%;
+    background-color: $success;
   }
 }

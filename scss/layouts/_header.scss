@@ -1,14 +1,33 @@
 .navbar {
   line-height: 70px;
   .navbar-brand {
-    margin-right: 170px;
+    margin-right: 160px;
   }
 }
 
 .navbar-light {
   .navbar-nav {
     .nav-link {
+      color: $dark;
       padding: 8px 10.5px;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
+.dropdown-item {
+  line-height: normal;
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+@media (min-width: 365px) and (max-width: 546px) {
+  .navbar {
+    .navbar-brand {
+      margin-right: 60px;
     }
   }
 }

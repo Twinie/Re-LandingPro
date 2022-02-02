@@ -1,0 +1,134 @@
+.full-container1-bg {
+  .row7-dms {
+    padding-top: 112px;
+    padding-bottom: 104px;
+    .location {
+      padding-bottom: 62px;
+      border-bottom: #163958 1px solid;
+    }
+    .col-6-two {
+      padding: 0 5px 0 25px;
+      .col6-sec-form {
+        position: relative;
+        max-width: 463px;
+        width: 100%;
+        height: fit-content;
+        margin-left: auto;
+        z-index: 0;
+        .form-sect {
+          width: 100%;
+          background-color: #fff;
+          border-radius: 10px;
+          .start-project {
+            font-size: 30px;
+            padding: 35px 0 0 35px;
+            margin: 0;
+          }
+          .form1 {
+            padding: 30px 37px 47px;
+            .check {
+              width: 24px;
+              height: 24px;
+              margin-right: 12px;
+            }
+          }
+        }
+        .img-round {
+          position: absolute;
+          bottom: 129px;
+          left: -80px;
+          z-index: -1;
+        }
+        .img-rect {
+          position: absolute;
+          top: 24px;
+          right: -118px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+.google-pay,
+.pay-junc,
+.wise,
+.stripe {
+  cursor: pointer;
+}
+
+@media (min-width: 365px) {
+  .full-container1-bg {
+    .row7-dms {
+      .col-6-two {
+        padding: 0 5px 0 5px;
+        .col6-sec-form {
+          margin-right: auto;
+          margin-top: 100px;
+          .img-rect {
+            right: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .full-container1-bg {
+    .row7-dms {
+      .col-6-two {
+        padding: 0 5px 0 5px;
+        .col6-sec-form {
+          .img-rect {
+            right: -118px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .full-container1-bg {
+    .row7-dms {
+      .col-6-two {
+        padding: 0 5px 0 25px;
+        .col6-sec-form {
+          margin-right: 0;
+          margin-top: 0;
+          .img-rect {
+            right: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1320px) {
+  .full-container1-bg {
+    .row7-dms {
+      .col-6-two {
+        .col6-sec-form {
+          .img-rect {
+            right: -75px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .full-container1-bg {
+    .row7-dms {
+      .col-6-two {
+        .col6-sec-form {
+          .img-rect {
+            right: -118px;
+          }
+        }
+      }
+    }
+  }
+}
