@@ -1,0 +1,27 @@
+.row3-dms {
+  padding-top: 87px;
+  .third-sect-col1 {
+    padding: 0 30px 0 0;
+    .phone {
+      max-width: 507px;
+    }
+  }
+  //   .third-sect-col2 {
+  //   }
+}
+
+@media (min-width: 365px) {
+  .row3-dms {
+    .third-sect-col2 {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .row3-dms {
+    .third-sect-col2 {
+      margin-top: 0px;
+    }
+  }
+}

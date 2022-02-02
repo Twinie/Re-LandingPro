@@ -1,0 +1,20 @@
+.navbar {
+  line-height: 70px;
+  .navbar-brand {
+    margin-right: 170px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      padding: 8px 10.5px;
+    }
+  }
+}
+
+@media (min-width: 365px) and (max-width: 992px) {
+  .navbar {
+    line-height: 25px;
+  }
+}
